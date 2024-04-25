@@ -1,0 +1,352 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye"
+      ],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thank's a lot!"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure"
+      ]
+    },
+    {
+      "tag": "branches",
+      "patterns": [
+        "Are there branches of the university within the Arab world?",
+        "Are there branches in the Kingdom of Saudi Arabia?",
+        "Are there other branches?"
+      ],
+      "responses": [
+        "The Arab Open University practices its educational and academic activities in nine Arab countries (Saudi Arabia - Kuwait - Bahrain - Sultanate of Oman - Egypt - Jordan - Lebanon - Sudan - and Palestine). there are six branches of the university in Saudi Arabia in the following cities:Riyadh - Jeddah - Dammam - Medina - Al-Ahsa - Hail"
+      ]
+    },
+    {
+      "tag": "admission",
+      "patterns": [
+        "What are the university admission conditions?",
+        "What are the university admission requirements?",
+        "What are the admission requirements",
+        "What are the admission conditions?"
+      ],
+      "responses": [
+        "The applicant must fulfill the following conditions: a. Obtain a high school diploma issued by the Saudi Ministry of Education or its equivalent from other countries if they are approved by the relevant authorities. b. Perform the 'assessment test' approved by the 'National Center for assessments'. c. High school certificate should be a 'scientific track' to be admitted to the College of Computer Studies."
+      ]
+    },
+    {
+      "tag": "paths",
+      "patterns": [
+        "What are the programs offered at the university?",
+        "What are the paths offered at the university?",
+        "What are the tracks offered at the university?",
+        "What are the programs and tracks offered at the university?",
+        "What are the programs offered?",
+        "What are the paths offered?",
+        "What are the tracks offered?"
+      ],
+      "responses": [
+        " 1. Bachelor of Computer Studies: a. Information Technology and computing Path b. Computer Science Path c. Network and Security Path d. Web development path. e. Computing and Business Path 2. Bachelor of Business Studies: a. Systems path b. Marketing Path c. Accounting Path 3. Bachelor of English Language and Literature"
+      ]
+    },
+    {
+      "tag": "language",
+      "patterns": [
+        "What is the language of study at the university?",
+        "What is the language of study?"
+      ],
+      "responses": [
+        "English language, except for the accounting track which is available in both languages Arabic and English."
+      ]
+    },
+    {
+      "tag": "degree",
+      "patterns": [
+        "What is the study period to obtain a bachelor's degree?",
+        "How long does it take to get a bachelor's degree?",
+        "How many years does it take to get a bachelor's degree?"
+      ],
+      "responses": [
+        "The duration of the study is four academic years, each two semesters is considered an academic year. Registration is also available in summer semesters. This duration will be considered if the student passes the three intensive course levels in the placement test for the English language."
+      ]
+    },
+    {
+      "tag": "credit system",
+      "patterns": [
+        "Is there an upper and lower limit for the academic credits registered in each semester?",
+        "Is there a limit for the academic credits registered in each semester?",
+        "what is the academic credits registery system?",
+        "what is the credits registery system?",
+        "what is the credits system?"
+      ],
+      "responses": [
+        "1: The registered academic credits must not be less than 12 credit hours per semester, and the College Council may reduce that limit to 9 credit hours. It must not exceed 21 hours for both the first and second semester, and the university rector may raise that limit to 24 credit hours for the student expected to graduate. 2: Those whose GPA is less than two points are not allowed to register more than 16 credit hours. 3: The maximum credit hours that a student registers in the summer semester is twelve (12) credit hours. The maximum limit may be raised to sixteen (16) credit hours for the student expected to graduate with the prior approval of the rector. 4: The minimum registration academic credits are three (3) credit hours."
+      ]
+    },
+    {
+      "tag": "schedule",
+      "patterns": [
+        "What is meant by even week and odd week in the school schedule?",
+        "What does even week and odd week mean?",
+        "What does even and odd weeks mean?"
+      ],
+      "responses": [
+        "Each semester in Arab Open University extends from (14-16) weeks. The first, third, fifth week, etc. are odd weeks. The second, fourth, sixth week, etc. are even weeks. There are courses that are taught every two weeks, and therefore they are taught in add or even weeks, and there are courses taught weekly."
+      ]
+    },
+    {
+      "tag": "communication",
+      "patterns": [
+        "What are the means of communication at the university?",
+        "how can I communicate with the university?"
+      ],
+      "responses": [
+        "Through the e-mail of the following university administration and staff: 1. Student Affairs (std.affairs@arabou.edu.sa) 2. Admission and Registration (en@arabou.edu.sa) 3. Public Relations (pr@arabou.edu.sa) Or through social media, as follows: a. Twitter:AOU_KSAB b. Facebook:AOU_SAB c. Snapchat:aou_ksab d. Instagram:aou_ksab"
+      ]
+    },
+    {
+      "tag": "accreditation",
+      "patterns": [
+        "Is the Arab Open University accredited?",
+        "Is the University accredited?"
+      ],
+      "responses": [
+        "Yes, the Arab Open University in Saudi Arabia is accredited by the Ministry of Education in Saudi Arabia, and it has a partnership and accreditation with the Open University in Britain, which is one of the best British universities."
+      ]
+    },
+    {
+      "tag": "tuition",
+      "patterns": [
+        "How much is the tuition fee at the Arab Open University",
+        "How much does it cost?"
+      ],
+      "responses": [
+        "The tuition fees for one semester are related to the number of hours registered by the student, but the estimated cost ranges between 6,000 - 10,000 Saudi riyals, and in a year between 12,000 - 15,000 thousand Saudi riyals, depending on the number of courses registered for the semester and tax fees for non-Saudis."
+      ]
+    },
+    {
+      "tag": "registration",
+      "patterns": [
+        "How to register at the Arab Open University?",
+        "How do I register at the Arab Open University?",
+        "How do I register?"
+      ],
+      "responses": [
+        "Registration is through the university’s official website 'online', by filling out the application form and clearly uploading the required files: 1. The applicant should have his/her Saudi secondary school original certificate or equivalent certificate (Those from outside Saudi Arabia should be equalized by the Ministry of Education). 2. The original ID AND passport (if available for Saudis) with a copy for matching. 3.Valid Iqama AND passport (for non-Saudis) with a copy for matching. 4.Two new photos (4X6)"
+      ]
+    },
+    {
+      "tag": "hours",
+      "patterns": [
+        "Is there a maximum and minimum number of hours registered in the semester?",
+        "what is the maximum and minimum number of hours?",
+        "what is the max and min number of hours?"
+      ],
+      "responses": [
+        "A minimum of 12 hours and a maximum of 21 hours for a regular semester. The minimum is 3 hours and the maximum is 12 hours for the summer semester."
+      ]
+    },
+    {
+      "tag": "GPA",
+      "patterns": [
+        "The GPA in the Arab Open University?",
+        "what is the GPA?"
+      ],
+      "responses": [
+        "It is from 4."
+      ]
+    },
+    {
+      "tag": "pay",
+      "patterns": [
+        "How can students pay their fees?",
+        "How can I pay the tuition?",
+        "How can I pay?"
+      ],
+      "responses": [
+        "1. Direct payment via the electronic payment service through the university's website after entering the student system. 2. Payment via the payment service of the invoice number 017, and the subscriber's number is the student’s ID (note the university does not accept deposits and bank transfers)."
+      ]
+    },
+    {
+      "tag": "dropping a course",
+      "patterns": [
+        "Is there a possibility of adding or dropping a registered course? ",
+        "How to drop a course?",
+        "can I drop a course?"
+      ],
+      "responses": [
+        "it is possible to add or drop any course during the registration or adding and dropping periods that announced for each semester. The student may drop any course one week before the start of the final exams, the course fees are not refundable, and the dropping request is submitted through Admission and Registration Department."
+      ]
+    },
+    {
+      "tag": "withdrawal",
+      "patterns": [
+        "How can students apply for a withdrawal from the university?",
+        "how can i withdraw from the university?",
+        "how can i withdraw from the university?"
+      ],
+      "responses": [
+        "By filling out the university withdrawal form and sending it to the admission and registration department from the student email and execute on the condition that there is no financial disclosure for the student."
+      ]
+    },
+    {
+      "tag": "installment pay",
+      "patterns": [
+        "Is there a system for tuition fees installment? What are its conditions?",
+        "can i pay in installments?"
+      ],
+      "responses": [
+        "there is a tuition fee installment system. To have it, the student should have completed 20 study hours, and his cumulative average is more than 2."
+      ]
+    },
+    {
+      "tag": "warning",
+      "patterns": [
+        "What is academic warning and is there a limit for warning? ",
+        "What are the consequences for an academic warned student? ",
+        "are there warnings? "
+      ],
+      "responses": [
+        "a warning to the student when the GPA is less than 2 out of 4. The student gets a first warning and is given an opportunity to improve and raise GPA to 2. If the student continues with a low GPA and gets more than 5 warnings, he will be dismiss from the university and has the right to re-enroll in another major with new university file and ID."
+      ]
+    },
+    {
+      "tag": "schedule change",
+      "patterns": [
+        "Can students change the times of their schedule?",
+        "can i change my schedule?"
+      ],
+      "responses": [
+        "you can do that during the registration period that was announced before and depending on the section’s availability."
+      ]
+    },
+    {
+      "tag": "change tracks",
+      "patterns": [
+        "Are the students allowed to transfer between tracks, academic programs, university branches?",
+        "can i change tracks? ",
+        "can i change paths? ",
+        "can i change programs? "
+      ],
+      "responses": [
+        "Yes, it is possible. Please have a look at the Students Transfer Bylaws"
+      ]
+    },
+    {
+      "tag": "Scholarship",
+      "patterns": [
+        "Does the university offer a scholarship to the student?",
+        "What are the types of scholarships?",
+        "are there scholarships?",
+        "does the university offer scholarships?"
+      ],
+      "responses": [
+        "Yes, there are two scholarship types at Arab Open University in the Kingdom of Saudi Arabia. 1. Excellence Scholarships:Scholarships are given to outstanding students who have cumulative GPA of (3.67-4.00), completed at least two semesters at Arab Open University, and accomplished at least (32 credit hours). 2. Arab Open University Scholarships (Student Fund): a. The student must be registered at Arab Open University in the semester in which he applies for the scholarship b. The student has accomplished a minimum of 16 hours. c. The student has a GPA of no less than 2.00. d. The student paid all previous fees. e. The student paid all fees except for the academic credit fees. (For inquiries, please refer to the Student Affairs Department)."
+      ]
+    },
+    {
+      "tag": "postponement",
+      "patterns": [
+        "How can a student submit a postponement of the midterm exam?",
+        "How can a student submit a postponement request for the final exam?",
+        "can i postpone exams?",
+        "can i postpone an exam? "
+      ],
+      "responses": [
+        "Submit the excuse to Student Affairs Department after paying the postponing exam fees. For cases that have compulsory excuses, fees are excluded."
+      ]
+    },
+    {
+      "tag": "student’s email",
+      "patterns": [
+        "What is the student’s email?"
+      ],
+      "responses": [
+        "student email ID will be: studentidKSA@aou.edu.sa Example:'23456789KSA@aou.edu.sa'. Access from this link:'http://outlook.office.com'. The default password will be student's National id or Iqama id."
+      ]
+    },
+    {
+      "tag": "SIS",
+      "patterns": [
+        "What is the Student Information System (SIS)?",
+        "What is SIS?"
+      ],
+      "responses": [
+        "It is an electronic system that contains all student’s information, starting with their admission application to their registered courses, academic results in each semester, and tuition fees until the student graduates from the university. It can be accessed Through the student information system link, which is listed on the university’s website. The student can benefit from the student information system through the following services:Courses registration. Check semester tuition. Check the assessments results. Check the study plan. Check available and closed courses’ sessions. Submit inquiries, complaints, or appeals to the assessments results."
+      ]
+    },
+    {
+      "tag": "LMS",
+      "patterns": [
+        "What is the Learning Management System (LMS)?",
+        "What is LMS?"
+      ],
+      "responses": [
+        "It is an electronic system or computer program designed to assist in managing, monitoring, and evaluating training and education. That's where all the learning activities take place remotely. It is also described as an e-learning platform. It is one of the most important modern tools for distance learning. Students can browse the course contents that they registered for. Students can submit electronic Homework, electronic tests. Students can browse course supporting materials. The system allows students to communicate with their tutors and colleagues in the course through specialized forums."
+      ]
+    },
+    {
+      "tag": "Library",
+      "patterns": [
+        "How can students benefit from the electronic services provided by the university library?",
+        "is there a Library?"
+      ],
+      "responses": [
+        "The electronic library can be accessed through the Learning Management System (LMS). There is also a guide for students in the learning resources department on how to access the electronic library."
+      ]
+    },
+    {
+      "tag": "Graduates",
+      "patterns": [
+        "What are the necessary procedures for students expected to graduate?",
+        "What are the graduation procedures?"
+      ],
+      "responses": [
+        "Update their data on the student information system. Consult the academic department to ensure the number of hours remaining as a requirement for graduation. Consult the admission and registration department to complete the procedures."
+      ]
+    },
+    {
+      "tag": "certificate",
+      "patterns": [
+        "What are the certificates that the student gets upon graduation?",
+        "What certificates do i get?"
+      ],
+      "responses": [
+        "The student gets three certificates upon graduation: 1. Certificate from the Arab Open University in the Kingdom of Saudi Arabia and approved by the Ministry of Education. 2. Certificate from the Open University in Britain. 3. Kuwaiti certificate (mural)."
+      ]
+    }
+  ]
+}
